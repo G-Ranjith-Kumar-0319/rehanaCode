@@ -1,0 +1,566 @@
+
+http://localhost:3002/api/api/v1/Journal-Review/journal-period-view
+
+[
+    {
+        "id": 33,
+        "code": "00",
+        "description": "O/B"
+    },
+    {
+        "id": 33,
+        "code": "01",
+        "description": "Apr"
+    },
+    {
+        "id": 33,
+        "code": "02",
+        "description": "May"
+    },
+    {
+        "id": 33,
+        "code": "03",
+        "description": "Jun"
+    },
+    {
+        "id": 33,
+        "code": "04",
+        "description": "Jul"
+    },
+    {
+        "id": 33,
+        "code": "05",
+        "description": "Aug"
+    },
+    {
+        "id": 33,
+        "code": "06",
+        "description": "Sep"
+    },
+    {
+        "id": 33,
+        "code": "07",
+        "description": "Oct"
+    },
+    {
+        "id": 33,
+        "code": "08",
+        "description": "Nov"
+    },
+    {
+        "id": 33,
+        "code": "09",
+        "description": "Dec"
+    },
+    {
+        "id": 33,
+        "code": "10",
+        "description": "Jan"
+    },
+    {
+        "id": 33,
+        "code": "11",
+        "description": "Feb"
+    },
+    {
+        "id": 33,
+        "code": "12",
+        "description": "Mar"
+    },
+    {
+        "id": 33,
+        "code": "13",
+        "description": "Y/E"
+    },
+    {
+        "id": 33,
+        "code": "All",
+        "description": "All Periods"
+    }
+]
+
+
+//  http://localhost:3002/api/api/v1/Journal-Review/journal-type-view
+
+[
+    {
+        "code": "AP",
+        "description": "Accounts Payable"
+    },
+    {
+        "code": "AR",
+        "description": "Accounts Receivable"
+    },
+    {
+        "code": "A",
+        "description": "All Journals"
+    },
+    {
+        "code": "AM",
+        "description": "Asset Management"
+    },
+    {
+        "code": "EP",
+        "description": "External Payment"
+    },
+    {
+        "code": "FD",
+        "description": "Funds"
+    },
+    {
+        "code": "GL",
+        "description": "General Ledger"
+    },
+    {
+        "code": "PC",
+        "description": "Petty Cash"
+    }
+]
+
+
+// http://localhost:3002/api/api/v1/Journal-Review/journal-review-Nominal-header
+
+{
+    "journalReview": [
+        {
+            "journal_id": 146144,
+            "journal_date": "2024-07-30T00:00:00",
+            "str_period_no": "04",
+            "period_no": 4,
+            "narrative": "Petty Cash Expenditure 00001975",
+            "journal_type": "CO",
+            "user_id": 6,
+            "det_num": "131129",
+            "user_code": "SYS",
+            "debit": 64.00,
+            "credit": 64.00,
+            "journal_type_mapping": "PC",
+            "pct_narrative": "1934 posted narrative",
+            "description": "Jul",
+            "totalCount": 141
+        },
+        {
+            "journal_id": 146143,
+            "journal_date": "2024-07-30T00:00:00",
+            "str_period_no": "04",
+            "period_no": 4,
+            "narrative": "Petty Cash Contra Expenditure 00001974",
+            "journal_type": "CC",
+            "user_id": 6,
+            "det_num": "131128",
+            "user_code": "SYS",
+            "debit": 64.00,
+            "credit": 64.00,
+            "journal_type_mapping": "PC",
+            "pct_narrative": "Contra to Expenditure 00001934",
+            "description": "Jul",
+            "totalCount": 141
+        },
+        {
+            "journal_id": 146142,
+            "journal_date": "2024-07-30T00:00:00",
+            "str_period_no": "04",
+            "period_no": 4,
+            "narrative": "Petty Cash Expenditure 00001973",
+            "journal_type": "CO",
+            "user_id": 6,
+            "det_num": "131127",
+            "user_code": "SYS",
+            "debit": 6.83,
+            "credit": 6.83,
+            "journal_type_mapping": "PC",
+            "pct_narrative": "Posted with Arun now",
+            "description": "Jul",
+            "totalCount": 141
+        },
+        {
+            "journal_id": 146141,
+            "journal_date": "2024-07-30T00:00:00",
+            "str_period_no": "04",
+            "period_no": 4,
+            "narrative": "Petty Cash Contra Expenditure 00001972",
+            "journal_type": "CC",
+            "user_id": 6,
+            "det_num": "131126",
+            "user_code": "SYS",
+            "debit": 5.83,
+            "credit": 5.83,
+            "journal_type_mapping": "PC",
+            "pct_narrative": "Contra to Expenditure 00001969",
+            "description": "Jul",
+            "totalCount": 141
+        },
+        {
+            "journal_id": 146140,
+            "journal_date": "2024-07-30T00:00:00",
+            "str_period_no": "04",
+            "period_no": 4,
+            "narrative": "Petty Cash Expenditure 00001971",
+            "journal_type": "CO",
+            "user_id": 6,
+            "det_num": "131125",
+            "user_code": "SYS",
+            "debit": 1341.00,
+            "credit": 1341.00,
+            "journal_type_mapping": "PC",
+            "pct_narrative": "saving narrative",
+            "description": "Jul",
+            "totalCount": 141
+        },
+        {
+            "journal_id": 146139,
+            "journal_date": "2024-07-30T00:00:00",
+            "str_period_no": "04",
+            "period_no": 4,
+            "narrative": "Petty Cash Contra Expenditure 00001970",
+            "journal_type": "CC",
+            "user_id": 6,
+            "det_num": "131124",
+            "user_code": "SYS",
+            "debit": 30.00,
+            "credit": 30.00,
+            "journal_type_mapping": "PC",
+            "pct_narrative": "Contra to Expenditure 00001937",
+            "description": "Jul",
+            "totalCount": 141
+        },
+        {
+            "journal_id": 146138,
+            "journal_date": "2024-07-30T00:00:00",
+            "str_period_no": "04",
+            "period_no": 4,
+            "narrative": "Petty Cash Expenditure 00001969",
+            "journal_type": "CO",
+            "user_id": 6,
+            "det_num": "131123",
+            "user_code": "SYS",
+            "debit": 5.83,
+            "credit": 5.83,
+            "journal_type_mapping": "PC",
+            "pct_narrative": "Cancelled: Posted first transaction",
+            "description": "Jul",
+            "totalCount": 141
+        },
+        {
+            "journal_id": 146137,
+            "journal_date": "2024-07-30T00:00:00",
+            "str_period_no": "04",
+            "period_no": 4,
+            "narrative": "Petty Cash Expenditure 00001968",
+            "journal_type": "CO",
+            "user_id": 6,
+            "det_num": "131122",
+            "user_code": "SYS",
+            "debit": 4.67,
+            "credit": 4.67,
+            "journal_type_mapping": "PC",
+            "pct_narrative": "adjusted",
+            "description": "Jul",
+            "totalCount": 141
+        },
+        {
+            "journal_id": 146136,
+            "journal_date": "2024-07-30T00:00:00",
+            "str_period_no": "04",
+            "period_no": 4,
+            "narrative": "Petty Cash Contra Expenditure 00001967",
+            "journal_type": "CC",
+            "user_id": 6,
+            "det_num": "131121",
+            "user_code": "SYS",
+            "debit": 4.67,
+            "credit": 4.67,
+            "journal_type_mapping": "PC",
+            "pct_narrative": "Contra to Expenditure 00001966",
+            "description": "Jul",
+            "totalCount": 141
+        },
+        {
+            "journal_id": 146135,
+            "journal_date": "2024-07-30T00:00:00",
+            "str_period_no": "04",
+            "period_no": 4,
+            "narrative": "Petty Cash Expenditure 00001966",
+            "journal_type": "CO",
+            "user_id": 6,
+            "det_num": "131120",
+            "user_code": "SYS",
+            "debit": 4.67,
+            "credit": 4.67,
+            "journal_type_mapping": "PC",
+            "pct_narrative": "Cancelled: Posted first time",
+            "description": "Jul",
+            "totalCount": 141
+        }
+    ],
+    "currentPage": 1,
+    "totalPages": 15,
+    "pageSize": 10,
+    "totalCount": 141,
+    "highlightJournal_id": 146144
+}
+
+
+//http://localhost:3002/api/api/v1/Journal-Review/journal-review-Nominal-header
+
+{
+    "journalReview": [
+        {
+            "journal_id": 146144,
+            "journal_date": "2024-07-30T00:00:00",
+            "str_period_no": "04",
+            "period_no": 4,
+            "narrative": "Petty Cash Expenditure 00001975",
+            "journal_type": "CO",
+            "user_id": 6,
+            "det_num": "131129",
+            "user_code": "SYS",
+            "debit": 64.00,
+            "credit": 64.00,
+            "journal_type_mapping": "PC",
+            "pct_narrative": "1934 posted narrative",
+            "description": "Jul",
+            "totalCount": 141
+        },
+        {
+            "journal_id": 146143,
+            "journal_date": "2024-07-30T00:00:00",
+            "str_period_no": "04",
+            "period_no": 4,
+            "narrative": "Petty Cash Contra Expenditure 00001974",
+            "journal_type": "CC",
+            "user_id": 6,
+            "det_num": "131128",
+            "user_code": "SYS",
+            "debit": 64.00,
+            "credit": 64.00,
+            "journal_type_mapping": "PC",
+            "pct_narrative": "Contra to Expenditure 00001934",
+            "description": "Jul",
+            "totalCount": 141
+        },
+        {
+            "journal_id": 146142,
+            "journal_date": "2024-07-30T00:00:00",
+            "str_period_no": "04",
+            "period_no": 4,
+            "narrative": "Petty Cash Expenditure 00001973",
+            "journal_type": "CO",
+            "user_id": 6,
+            "det_num": "131127",
+            "user_code": "SYS",
+            "debit": 6.83,
+            "credit": 6.83,
+            "journal_type_mapping": "PC",
+            "pct_narrative": "Posted with Arun now",
+            "description": "Jul",
+            "totalCount": 141
+        },
+        {
+            "journal_id": 146141,
+            "journal_date": "2024-07-30T00:00:00",
+            "str_period_no": "04",
+            "period_no": 4,
+            "narrative": "Petty Cash Contra Expenditure 00001972",
+            "journal_type": "CC",
+            "user_id": 6,
+            "det_num": "131126",
+            "user_code": "SYS",
+            "debit": 5.83,
+            "credit": 5.83,
+            "journal_type_mapping": "PC",
+            "pct_narrative": "Contra to Expenditure 00001969",
+            "description": "Jul",
+            "totalCount": 141
+        },
+        {
+            "journal_id": 146140,
+            "journal_date": "2024-07-30T00:00:00",
+            "str_period_no": "04",
+            "period_no": 4,
+            "narrative": "Petty Cash Expenditure 00001971",
+            "journal_type": "CO",
+            "user_id": 6,
+            "det_num": "131125",
+            "user_code": "SYS",
+            "debit": 1341.00,
+            "credit": 1341.00,
+            "journal_type_mapping": "PC",
+            "pct_narrative": "saving narrative",
+            "description": "Jul",
+            "totalCount": 141
+        },
+        {
+            "journal_id": 146139,
+            "journal_date": "2024-07-30T00:00:00",
+            "str_period_no": "04",
+            "period_no": 4,
+            "narrative": "Petty Cash Contra Expenditure 00001970",
+            "journal_type": "CC",
+            "user_id": 6,
+            "det_num": "131124",
+            "user_code": "SYS",
+            "debit": 30.00,
+            "credit": 30.00,
+            "journal_type_mapping": "PC",
+            "pct_narrative": "Contra to Expenditure 00001937",
+            "description": "Jul",
+            "totalCount": 141
+        },
+        {
+            "journal_id": 146138,
+            "journal_date": "2024-07-30T00:00:00",
+            "str_period_no": "04",
+            "period_no": 4,
+            "narrative": "Petty Cash Expenditure 00001969",
+            "journal_type": "CO",
+            "user_id": 6,
+            "det_num": "131123",
+            "user_code": "SYS",
+            "debit": 5.83,
+            "credit": 5.83,
+            "journal_type_mapping": "PC",
+            "pct_narrative": "Cancelled: Posted first transaction",
+            "description": "Jul",
+            "totalCount": 141
+        },
+        {
+            "journal_id": 146137,
+            "journal_date": "2024-07-30T00:00:00",
+            "str_period_no": "04",
+            "period_no": 4,
+            "narrative": "Petty Cash Expenditure 00001968",
+            "journal_type": "CO",
+            "user_id": 6,
+            "det_num": "131122",
+            "user_code": "SYS",
+            "debit": 4.67,
+            "credit": 4.67,
+            "journal_type_mapping": "PC",
+            "pct_narrative": "adjusted",
+            "description": "Jul",
+            "totalCount": 141
+        },
+        {
+            "journal_id": 146136,
+            "journal_date": "2024-07-30T00:00:00",
+            "str_period_no": "04",
+            "period_no": 4,
+            "narrative": "Petty Cash Contra Expenditure 00001967",
+            "journal_type": "CC",
+            "user_id": 6,
+            "det_num": "131121",
+            "user_code": "SYS",
+            "debit": 4.67,
+            "credit": 4.67,
+            "journal_type_mapping": "PC",
+            "pct_narrative": "Contra to Expenditure 00001966",
+            "description": "Jul",
+            "totalCount": 141
+        },
+        {
+            "journal_id": 146135,
+            "journal_date": "2024-07-30T00:00:00",
+            "str_period_no": "04",
+            "period_no": 4,
+            "narrative": "Petty Cash Expenditure 00001966",
+            "journal_type": "CO",
+            "user_id": 6,
+            "det_num": "131120",
+            "user_code": "SYS",
+            "debit": 4.67,
+            "credit": 4.67,
+            "journal_type_mapping": "PC",
+            "pct_narrative": "Cancelled: Posted first time",
+            "description": "Jul",
+            "totalCount": 141
+        }
+    ],
+    "currentPage": 1,
+    "totalPages": 15,
+    "pageSize": 10,
+    "totalCount": 141,
+    "highlightJournal_id": 146144
+}
+
+//http://localhost:3002/api/api/v1/Journal-Review/journal-period-view?sequence=0
+
+
+[
+    {
+        "id": 33,
+        "code": "00",
+        "description": "O/B"
+    },
+    {
+        "id": 33,
+        "code": "01",
+        "description": "Apr"
+    },
+    {
+        "id": 33,
+        "code": "02",
+        "description": "May"
+    },
+    {
+        "id": 33,
+        "code": "03",
+        "description": "Jun"
+    },
+    {
+        "id": 33,
+        "code": "04",
+        "description": "Jul"
+    },
+    {
+        "id": 33,
+        "code": "05",
+        "description": "Aug"
+    },
+    {
+        "id": 33,
+        "code": "06",
+        "description": "Sep"
+    },
+    {
+        "id": 33,
+        "code": "07",
+        "description": "Oct"
+    },
+    {
+        "id": 33,
+        "code": "08",
+        "description": "Nov"
+    },
+    {
+        "id": 33,
+        "code": "09",
+        "description": "Dec"
+    },
+    {
+        "id": 33,
+        "code": "10",
+        "description": "Jan"
+    },
+    {
+        "id": 33,
+        "code": "11",
+        "description": "Feb"
+    },
+    {
+        "id": 33,
+        "code": "12",
+        "description": "Mar"
+    },
+    {
+        "id": 33,
+        "code": "13",
+        "description": "Y/E"
+    },
+    {
+        "id": 33,
+        "code": "All",
+        "description": "All Periods"
+    }
+]
+
